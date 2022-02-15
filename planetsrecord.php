@@ -10,7 +10,7 @@
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     } else {
-        echo "connected succesfully" . "<br/>";
+        echo "connected succesfully and echoed as well" . "<br/>";
     }
 
     //creating a new table and checking for errors or duplicates.
